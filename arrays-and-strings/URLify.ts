@@ -16,7 +16,15 @@ function replaceSpaces2(string: string) {
 }
 
 // --------------------
+// SOLUTION 3
+
+function replaceSpaces3(string: string) {
+  return string.trim().split(' ').join('%20')
+}
+
+// --------------------
 // TESTS
 
 console.log(replaceSpaces('Mr John Smith   '))
 console.log(replaceSpaces2('Mr John Smith   '))
+console.log(replaceSpaces3('Mr John Smith   '))
