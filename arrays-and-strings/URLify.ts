@@ -40,9 +40,36 @@ function replaceSpaces4(string: string) {
 }
 
 // --------------------
+// SOLUTION 5
+
+// TIP: This solution uses a for loop to iterate over the string and replace spaces with '%20' without modifying the original string
+
+function replaceSpaces5(string: string, trueLength = string.trim().length) {
+  let result = ''
+
+  // Remove starting spaces
+  let start = 0
+  while (string[start] === ' ') {
+    start++
+  }
+
+  // Replace spaces with '%20' up until the true length (excluding trailing spaces)
+  for (let i = start; i < trueLength + start; i++) {
+    if (string[i] === ' ') {
+      result += '%20'
+    } else {
+      result += string[i]
+    }
+  }
+
+  return result
+}
+
+// --------------------
 // TESTS
 
 console.log(replaceSpaces('Mr John Smith   '))
 console.log(replaceSpaces2('Mr John Smith   '))
 console.log(replaceSpaces3('Mr John Smith   '))
 console.log(replaceSpaces4('Mr John Smith   '))
+console.log(replaceSpaces5('Mr John Smith   '))
