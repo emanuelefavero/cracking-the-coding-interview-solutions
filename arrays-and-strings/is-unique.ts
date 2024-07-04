@@ -1,5 +1,6 @@
 // Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
+// O(n) time | O(n) space
 function isUnique(string: string) {
   const set = new Set()
 

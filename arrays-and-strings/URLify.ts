@@ -2,6 +2,7 @@
 
 // TIP: This solution uses regular expressions
 
+// O(n) time | O(n) space
 function replaceSpaces(string: string) {
   return string.trim().replace(/\s/g, '%20')
 }
