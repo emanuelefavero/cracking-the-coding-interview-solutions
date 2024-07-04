@@ -15,3 +15,5 @@ Feel free to browse the solutions and explanations for each problem. You can clo
 ### Arrays and Strings
 
 - [Is Unique](./arrays-and-strings/is-unique.ts)
+- [Check Permutation](./arrays-and-strings/check-permutation.ts)
+- [URLify](./arrays-and-strings/urlify.ts)
