@@ -2,7 +2,7 @@
 
 This repository contains my solutions to [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) questions.
 
-> Note: The solutions are written in TypeScript or JavaScript
+> Note: This repository is a work in progress, the solutions are written in TypeScript or JavaScript
 
 ## Usage
 
