@@ -18,3 +18,7 @@ Feel free to browse the solutions and explanations for each problem. You can clo
 - [Check Permutation](./arrays-and-strings/check-permutation.ts)
 - [URLify](./arrays-and-strings/urlify.ts)
 - [Palindrome Permutation](./arrays-and-strings/palindrome-permutation.ts)
+
+## License
+
+- [MIT](LICENSE.md)
