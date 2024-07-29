@@ -1,7 +1,7 @@
 // Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 // O(n) time | O(n) space
-function isUnique(string: string) {
+function isUnique(string: string): boolean {
   const set = new Set()
 
   for (let i = 0; i < string.length; i++) {
@@ -16,7 +16,7 @@ function isUnique(string: string) {
 
 // TIP: This solution does not use additional data structures
 
-function isUnique2(string: string) {
+function isUnique2(string: string): boolean {
   for (let i = 0; i < string.length; i++) {
     for (let j = i + 1; j < string.length; j++) {
       if (string[i] === string[j]) {

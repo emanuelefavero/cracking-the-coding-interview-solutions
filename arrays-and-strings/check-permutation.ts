@@ -1,7 +1,7 @@
 // Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
 
 // O(n log n) time | O(n) space
-function checkPermutation(str1: string, str2: string) {
+function checkPermutation(str1: string, str2: string): boolean {
   if (str1.length !== str2.length) return false
 
   let sorted1 = str1.split('').sort().join('')

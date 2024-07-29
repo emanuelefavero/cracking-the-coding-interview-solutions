@@ -3,7 +3,7 @@
 // TIP: This solution uses regular expressions
 
 // O(n) time | O(n) space
-function replaceSpaces(string: string) {
+function replaceSpaces(string: string): string {
   return string.trim().replace(/\s/g, '%20')
 }
 
@@ -12,14 +12,14 @@ function replaceSpaces(string: string) {
 
 // TIP: This solution uses the built-in encodeURI function that converts a string into a valid URL
 
-function replaceSpaces2(string: string) {
+function replaceSpaces2(string: string): string {
   return encodeURI(string.trim())
 }
 
 // --------------------
 // SOLUTION 3
 
-function replaceSpaces3(string: string) {
+function replaceSpaces3(string: string): string {
   return string.trim().split(' ').join('%20')
 }
 
@@ -28,7 +28,7 @@ function replaceSpaces3(string: string) {
 
 // TIP: This solution uses a for loop to iterate over the string and replace spaces with '%20' in place
 
-function replaceSpaces4(string: string) {
+function replaceSpaces4(string: string): string {
   string = string.trim()
 
   for (let i = 0; i < string.length; i++) {
@@ -45,7 +45,10 @@ function replaceSpaces4(string: string) {
 
 // TIP: This solution uses a for loop to iterate over the string and replace spaces with '%20' without modifying the original string
 
-function replaceSpaces5(string: string, trueLength = string.trim().length) {
+function replaceSpaces5(
+  string: string,
+  trueLength = string.trim().length
+): string {
   let result = ''
 
   // Remove starting spaces
