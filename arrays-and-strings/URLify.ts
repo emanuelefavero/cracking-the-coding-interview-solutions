@@ -3,7 +3,7 @@
 // TIP: This solution uses regular expressions
 
 // O(n) time | O(n) space
-function replaceSpaces(string: string): string {
+function replaceSpaces(string: string) {
   return string.trim().replace(/\s/g, '%20')
 }
 
@@ -12,14 +12,14 @@ function replaceSpaces(string: string): string {
 
 // TIP: This solution uses the built-in encodeURI function that converts a string into a valid URL
 
-function replaceSpaces2(string: string): string {
+function replaceSpaces2(string: string) {
   return encodeURI(string.trim())
 }
 
 // --------------------
 // SOLUTION 3
 
-function replaceSpaces3(string: string): string {
+function replaceSpaces3(string: string) {
   return string.trim().split(' ').join('%20')
 }
 
