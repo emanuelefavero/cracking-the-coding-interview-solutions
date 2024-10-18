@@ -19,6 +19,7 @@ Feel free to browse the solutions and explanations for each problem. You can clo
 - [URLify](./arrays-and-strings/urlify.ts)
 - [Palindrome Permutation](./arrays-and-strings/palindrome-permutation.ts)
 - [One Away](./arrays-and-strings/one-away.ts)
+- [String Compression](./arrays-and-strings/string-compression.ts)
 
 ## License
 
